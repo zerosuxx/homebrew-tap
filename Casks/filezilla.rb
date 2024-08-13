@@ -18,5 +18,9 @@ cask "filezilla" do
   desc "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface."
   homepage "https://filezilla-project.org"
 
+  livecheck do
+    skip "No version information available"
+  end
+
   app "FileZilla.app"
 end
