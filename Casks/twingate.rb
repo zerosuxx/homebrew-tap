@@ -14,7 +14,6 @@ cask "twingate" do
   zap trash: [
     "~/Library/Preferences/com.twingate.macos.plist",
     "~/Library/Application Scripts/com.twingate.macos",
-    "~/Library/Containers/com.twingate.macos.tunnelprovider",
     "~/Library/Group Containers/group.com.twingate"
   ]
 end
