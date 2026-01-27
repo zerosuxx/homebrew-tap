@@ -1,4 +1,4 @@
-cask "redisinsight" do
+cask "redis-insight" do
   version "3.0.2"
 
   on_intel do
